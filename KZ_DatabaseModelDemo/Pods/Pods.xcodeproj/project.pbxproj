@@ -15,16 +15,16 @@
 /* Begin PBXFileReference section */
 		09D31A2184A6A0D1F0921CC716F9B61F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0D899D1BA7D308FA5CE300E4F5558ECC /* KZ_JSONFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KZ_JSONFramework.framework; path = KZ_JSON/KZ_JSONFramework.framework; sourceTree = "<group>"; };
-		3240CCC37BD04DA5337144FA6A6B792D /* Pods-KZ_DatabaseModel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-KZ_DatabaseModel.modulemap"; sourceTree = "<group>"; };
+		3240CCC37BD04DA5337144FA6A6B792D /* Pods-KZ_DatabaseModel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-KZ_DatabaseModel.modulemap"; sourceTree = "<group>"; };
 		3DB2A621C6277FD27DFF0DC19088A20B /* Pods-KZ_DatabaseModel-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KZ_DatabaseModel-frameworks.sh"; sourceTree = "<group>"; };
 		4E002B3D7B93C0E7E9E284DD050488F6 /* Pods-KZ_DatabaseModel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KZ_DatabaseModel-umbrella.h"; sourceTree = "<group>"; };
 		651B994B47EC816DF2AD49B4D0E34B56 /* KZ_DatabaseFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KZ_DatabaseFramework.framework; path = KZ_Database/KZ_DatabaseFramework.framework; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		67C9A66AFABCBC3B722375C1733B2DF0 /* Pods-KZ_DatabaseModel-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KZ_DatabaseModel-acknowledgements.markdown"; sourceTree = "<group>"; };
 		76B697F6BA47A525240DAED2BD4E6560 /* KZ_ModelFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KZ_ModelFramework.framework; path = KZ_Model/KZ_ModelFramework.framework; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A2336C4D48522CAD8FD6348ECC8C5E32 /* Pods-KZ_DatabaseModel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KZ_DatabaseModel.release.xcconfig"; sourceTree = "<group>"; };
-		A85412EF11631A0F98ADEA569FC414AF /* Pods_KZ_DatabaseModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KZ_DatabaseModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A85412EF11631A0F98ADEA569FC414AF /* Pods_KZ_DatabaseModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KZ_DatabaseModel.framework; path = "Pods-KZ_DatabaseModel.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB77283079315C4392528D05AED5096D /* Pods-KZ_DatabaseModel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KZ_DatabaseModel-dummy.m"; sourceTree = "<group>"; };
 		B6A04558FFB795C80203F835CCE7DF28 /* Pods-KZ_DatabaseModel-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KZ_DatabaseModel-acknowledgements.plist"; sourceTree = "<group>"; };
 		CDB9D0C28803D755AAF7DFF5BCD66F93 /* Pods-KZ_DatabaseModel-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KZ_DatabaseModel-resources.sh"; sourceTree = "<group>"; };
@@ -48,6 +48,7 @@
 			children = (
 				CB9DC58806848D6AD0BE20B3907D99EA /* Frameworks */,
 			);
+			name = KZ_JSON;
 			path = KZ_JSON;
 			sourceTree = "<group>";
 		};
@@ -101,6 +102,7 @@
 			children = (
 				2D4B89ED5F2CBEB3F7DCD5DE6BBDE208 /* Frameworks */,
 			);
+			name = KZ_Database;
 			path = KZ_Database;
 			sourceTree = "<group>";
 		};
@@ -141,6 +143,7 @@
 			children = (
 				3965DAFB658D02C843A25D390084B838 /* Frameworks */,
 			);
+			name = KZ_Model;
 			path = KZ_Model;
 			sourceTree = "<group>";
 		};
@@ -200,7 +203,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0910;
+				LastUpgradeCheck = 0700;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -277,9 +280,7 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -287,21 +288,15 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_DEBUG=1",
@@ -334,9 +329,7 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -344,20 +337,14 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_RELEASE=1",
 					"$(inherited)",

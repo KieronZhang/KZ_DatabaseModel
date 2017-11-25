@@ -11,7 +11,7 @@
 @interface NSObject (KZ_JSON)
 
 - (id)JSONValue;
-- (NSString *)JSONString;
 - (NSData *)JSONData;
+- (NSString *)JSONString;
 
 @end

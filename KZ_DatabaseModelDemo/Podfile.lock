@@ -1,7 +1,7 @@
 PODS:
   - KZ_Database (0.1):
     - KZ_JSON
-  - KZ_JSON (0.1)
+  - KZ_JSON (0.1.1)
   - KZ_Model (0.1):
     - KZ_JSON
 
@@ -11,7 +11,7 @@ DEPENDENCIES:
 
 SPEC CHECKSUMS:
   KZ_Database: 9bc9444960a8ba7abce04958d65a5b231bcc0793
-  KZ_JSON: 78f4e58e3604928dc0fb801dde9f97aad0c0b636
+  KZ_JSON: 29f35829b005d283411de59f4063de5bfc1ebdcb
   KZ_Model: 477ad89c2fe335bb69c46c669f432d5ee6543a55
 
 PODFILE CHECKSUM: 9f73a3aa5e04a1b9f39baa62455e6ac673a61348
