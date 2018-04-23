@@ -1,10 +1,17 @@
-platform :ios, ‘8.0’
-
 use_frameworks!
 
-target 'KZ_DatabaseModel' do
-
+target 'KZ_DatabaseModel_iOS' do
+    
+    platform :ios, '8.0'
     pod 'KZ_Model'
     pod 'KZ_Database'
+    
+end
 
+target 'KZ_DatabaseModel_macOS' do
+    
+    platform :osx, '10.10'
+    pod 'KZ_Model'
+    pod 'KZ_Database'
+    
 end

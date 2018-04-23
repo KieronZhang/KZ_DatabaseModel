@@ -7,59 +7,82 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AE9A25FE1FC5F46A00668BA7 /* KZ_DatabaseModelFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE9A25FD1FC5F46A00668BA7 /* KZ_DatabaseModelFramework.framework */; };
-		AEF176001E0EB592003D041A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF175FF1E0EB592003D041A /* main.m */; };
-		AEF176031E0EB592003D041A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF176021E0EB592003D041A /* AppDelegate.m */; };
-		AEF176061E0EB592003D041A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF176051E0EB592003D041A /* ViewController.m */; };
-		AEF176091E0EB592003D041A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEF176071E0EB592003D041A /* Main.storyboard */; };
-		AEF1760B1E0EB592003D041A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEF1760A1E0EB592003D041A /* Assets.xcassets */; };
-		AEF1760E1E0EB592003D041A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEF1760C1E0EB592003D041A /* LaunchScreen.storyboard */; };
-		AEF176371E0EB653003D041A /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF176361E0EB653003D041A /* User.m */; };
-		BC914FD9EC599468187BE389 /* Pods_KZ_DatabaseModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6D8DB47FC8B544D2AC28EB0 /* Pods_KZ_DatabaseModel.framework */; };
+		0AF4397D700FC7856B6A44BB /* Pods_KZ_DatabaseModel_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 486645E8D62ABE9143866C09 /* Pods_KZ_DatabaseModel_macOS.framework */; };
+		82876CE4EAAF4813BC968A91 /* Pods_KZ_DatabaseModel_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BBF60A709342D04008C3BC0 /* Pods_KZ_DatabaseModel_iOS.framework */; };
+		AEC2904E208DC9CE00198A0E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC2904D208DC9CE00198A0E /* AppDelegate.m */; };
+		AEC29051208DC9CE00198A0E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC29050208DC9CE00198A0E /* ViewController.m */; };
+		AEC29054208DC9CE00198A0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEC29052208DC9CE00198A0E /* Main.storyboard */; };
+		AEC29056208DC9CE00198A0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEC29055208DC9CE00198A0E /* Assets.xcassets */; };
+		AEC29059208DC9CE00198A0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEC29057208DC9CE00198A0E /* LaunchScreen.storyboard */; };
+		AEC2905C208DC9CE00198A0E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC2905B208DC9CE00198A0E /* main.m */; };
+		AEC29062208DCA1100198A0E /* iOS_User.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC29061208DCA1100198A0E /* iOS_User.m */; };
+		AEC29073208DCAC500198A0E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC29072208DCAC500198A0E /* AppDelegate.m */; };
+		AEC29076208DCAC500198A0E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC29075208DCAC500198A0E /* ViewController.m */; };
+		AEC29078208DCAC500198A0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEC29077208DCAC500198A0E /* Assets.xcassets */; };
+		AEC2907B208DCAC500198A0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEC29079208DCAC500198A0E /* Main.storyboard */; };
+		AEC2907E208DCAC500198A0E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC2907D208DCAC500198A0E /* main.m */; };
+		AEC29088208DCAFF00198A0E /* macOS_User.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC29087208DCAFF00198A0E /* macOS_User.m */; };
+		AEC2908A208DCE2500198A0E /* KZ_DatabaseModel_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEC29089208DCE2500198A0E /* KZ_DatabaseModel_iOS.framework */; };
+		AEC2908C208DCE2B00198A0E /* KZ_DatabaseModel_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEC2908B208DCE2B00198A0E /* KZ_DatabaseModel_macOS.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		AEDC10D01FC1E2C600752728 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		291F580376F2B560C3FE312A /* Pods_KZ_DatabaseModelFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KZ_DatabaseModelFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		314D22912E23D1CA421C3181 /* Pods-KZ_DatabaseModel_macOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_DatabaseModel_macOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_DatabaseModel_macOS/Pods-KZ_DatabaseModel_macOS.debug.xcconfig"; sourceTree = "<group>"; };
+		486645E8D62ABE9143866C09 /* Pods_KZ_DatabaseModel_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KZ_DatabaseModel_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		508C384AE0AFD9F8D464AB16 /* Pods-KZ_DatabaseModel_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_DatabaseModel_iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_DatabaseModel_iOS/Pods-KZ_DatabaseModel_iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		56558DA0314C4AEAEEC54CCA /* Pods-KZ_DatabaseModel_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_DatabaseModel_iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_DatabaseModel_iOS/Pods-KZ_DatabaseModel_iOS.release.xcconfig"; sourceTree = "<group>"; };
 		5CC3F2EC0788EE439BB37890 /* Pods-KZ_DatabaseModel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_DatabaseModel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_DatabaseModel/Pods-KZ_DatabaseModel.debug.xcconfig"; sourceTree = "<group>"; };
+		7BBF60A709342D04008C3BC0 /* Pods_KZ_DatabaseModel_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KZ_DatabaseModel_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6D8DB47FC8B544D2AC28EB0 /* Pods_KZ_DatabaseModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KZ_DatabaseModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AE9A25FD1FC5F46A00668BA7 /* KZ_DatabaseModelFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_DatabaseModelFramework.framework; sourceTree = "<group>"; };
-		AEF175FB1E0EB592003D041A /* KZ_DatabaseModel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KZ_DatabaseModel.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		AEF175FF1E0EB592003D041A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		AEF176011E0EB592003D041A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		AEF176021E0EB592003D041A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		AEF176041E0EB592003D041A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AEF176051E0EB592003D041A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		AEF176081E0EB592003D041A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AEF1760A1E0EB592003D041A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		AEF1760D1E0EB592003D041A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		AEF1760F1E0EB592003D041A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AEF176351E0EB653003D041A /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
-		AEF176361E0EB653003D041A /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		AEC2904A208DC9CE00198A0E /* KZ_DatabaseModel_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KZ_DatabaseModel_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEC2904C208DC9CE00198A0E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AEC2904D208DC9CE00198A0E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AEC2904F208DC9CE00198A0E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AEC29050208DC9CE00198A0E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AEC29053208DC9CE00198A0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AEC29055208DC9CE00198A0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AEC29058208DC9CE00198A0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AEC2905A208DC9CE00198A0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEC2905B208DC9CE00198A0E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AEC29060208DCA1100198A0E /* iOS_User.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOS_User.h; sourceTree = "<group>"; };
+		AEC29061208DCA1100198A0E /* iOS_User.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_User.m; sourceTree = "<group>"; };
+		AEC2906F208DCAC500198A0E /* KZ_DatabaseModel_macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KZ_DatabaseModel_macOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEC29071208DCAC500198A0E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AEC29072208DCAC500198A0E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AEC29074208DCAC500198A0E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AEC29075208DCAC500198A0E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AEC29077208DCAC500198A0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AEC2907A208DCAC500198A0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AEC2907C208DCAC500198A0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEC2907D208DCAC500198A0E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AEC2907F208DCAC500198A0E /* KZ_DatabaseModel_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KZ_DatabaseModel_macOS.entitlements; sourceTree = "<group>"; };
+		AEC29086208DCAFF00198A0E /* macOS_User.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = macOS_User.h; sourceTree = "<group>"; };
+		AEC29087208DCAFF00198A0E /* macOS_User.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = macOS_User.m; sourceTree = "<group>"; };
+		AEC29089208DCE2500198A0E /* KZ_DatabaseModel_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_DatabaseModel_iOS.framework; sourceTree = "<group>"; };
+		AEC2908B208DCE2B00198A0E /* KZ_DatabaseModel_macOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_DatabaseModel_macOS.framework; sourceTree = "<group>"; };
 		BB2BE3982170674B0BE26C82 /* Pods-KZ_DatabaseModelFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_DatabaseModelFramework.release.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_DatabaseModelFramework/Pods-KZ_DatabaseModelFramework.release.xcconfig"; sourceTree = "<group>"; };
 		C9D752DE5DC620831DCBB2FB /* Pods-KZ_DatabaseModelFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_DatabaseModelFramework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_DatabaseModelFramework/Pods-KZ_DatabaseModelFramework.debug.xcconfig"; sourceTree = "<group>"; };
+		D0D931BF07A399B79CA12D9E /* Pods-KZ_DatabaseModel_macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_DatabaseModel_macOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_DatabaseModel_macOS/Pods-KZ_DatabaseModel_macOS.release.xcconfig"; sourceTree = "<group>"; };
 		D6CE15BFAA5B09547F6D7CD2 /* Pods-KZ_DatabaseModel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_DatabaseModel.release.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_DatabaseModel/Pods-KZ_DatabaseModel.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		AEF175F81E0EB592003D041A /* Frameworks */ = {
+		AEC29047208DC9CE00198A0E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC914FD9EC599468187BE389 /* Pods_KZ_DatabaseModel.framework in Frameworks */,
-				AE9A25FE1FC5F46A00668BA7 /* KZ_DatabaseModelFramework.framework in Frameworks */,
+				AEC2908A208DCE2500198A0E /* KZ_DatabaseModel_iOS.framework in Frameworks */,
+				82876CE4EAAF4813BC968A91 /* Pods_KZ_DatabaseModel_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEC2906C208DCAC500198A0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEC2908C208DCE2B00198A0E /* KZ_DatabaseModel_macOS.framework in Frameworks */,
+				0AF4397D700FC7856B6A44BB /* Pods_KZ_DatabaseModel_macOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,14 +94,62 @@
 			children = (
 				A6D8DB47FC8B544D2AC28EB0 /* Pods_KZ_DatabaseModel.framework */,
 				291F580376F2B560C3FE312A /* Pods_KZ_DatabaseModelFramework.framework */,
+				7BBF60A709342D04008C3BC0 /* Pods_KZ_DatabaseModel_iOS.framework */,
+				486645E8D62ABE9143866C09 /* Pods_KZ_DatabaseModel_macOS.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		AEA5EBE61FC2A9DC003D7BD1 /* DatabaseModel */ = {
+		AEC2904B208DC9CE00198A0E /* KZ_DatabaseModel_iOS */ = {
 			isa = PBXGroup;
 			children = (
-				AE9A25FD1FC5F46A00668BA7 /* KZ_DatabaseModelFramework.framework */,
+				AEC2904C208DC9CE00198A0E /* AppDelegate.h */,
+				AEC2904D208DC9CE00198A0E /* AppDelegate.m */,
+				AEC2904F208DC9CE00198A0E /* ViewController.h */,
+				AEC29050208DC9CE00198A0E /* ViewController.m */,
+				AEC29060208DCA1100198A0E /* iOS_User.h */,
+				AEC29061208DCA1100198A0E /* iOS_User.m */,
+				AEC29068208DCAB300198A0E /* DatabaseModel */,
+				AEC29052208DC9CE00198A0E /* Main.storyboard */,
+				AEC29055208DC9CE00198A0E /* Assets.xcassets */,
+				AEC29057208DC9CE00198A0E /* LaunchScreen.storyboard */,
+				AEC2905A208DC9CE00198A0E /* Info.plist */,
+				AEC2905B208DC9CE00198A0E /* main.m */,
+			);
+			path = KZ_DatabaseModel_iOS;
+			sourceTree = "<group>";
+		};
+		AEC29068208DCAB300198A0E /* DatabaseModel */ = {
+			isa = PBXGroup;
+			children = (
+				AEC29089208DCE2500198A0E /* KZ_DatabaseModel_iOS.framework */,
+			);
+			path = DatabaseModel;
+			sourceTree = "<group>";
+		};
+		AEC29070208DCAC500198A0E /* KZ_DatabaseModel_macOS */ = {
+			isa = PBXGroup;
+			children = (
+				AEC29071208DCAC500198A0E /* AppDelegate.h */,
+				AEC29072208DCAC500198A0E /* AppDelegate.m */,
+				AEC29074208DCAC500198A0E /* ViewController.h */,
+				AEC29075208DCAC500198A0E /* ViewController.m */,
+				AEC29086208DCAFF00198A0E /* macOS_User.h */,
+				AEC29087208DCAFF00198A0E /* macOS_User.m */,
+				AEC29083208DCAF500198A0E /* DatabaseModel */,
+				AEC29077208DCAC500198A0E /* Assets.xcassets */,
+				AEC29079208DCAC500198A0E /* Main.storyboard */,
+				AEC2907C208DCAC500198A0E /* Info.plist */,
+				AEC2907D208DCAC500198A0E /* main.m */,
+				AEC2907F208DCAC500198A0E /* KZ_DatabaseModel_macOS.entitlements */,
+			);
+			path = KZ_DatabaseModel_macOS;
+			sourceTree = "<group>";
+		};
+		AEC29083208DCAF500198A0E /* DatabaseModel */ = {
+			isa = PBXGroup;
+			children = (
+				AEC2908B208DCE2B00198A0E /* KZ_DatabaseModel_macOS.framework */,
 			);
 			path = DatabaseModel;
 			sourceTree = "<group>";
@@ -86,7 +157,8 @@
 		AEF175F21E0EB592003D041A = {
 			isa = PBXGroup;
 			children = (
-				AEF175FD1E0EB592003D041A /* KZ_DatabaseModel */,
+				AEC2904B208DC9CE00198A0E /* KZ_DatabaseModel_iOS */,
+				AEC29070208DCAC500198A0E /* KZ_DatabaseModel_macOS */,
 				AEF175FC1E0EB592003D041A /* Products */,
 				F0B17A2AD67C49A7379F2F55 /* Pods */,
 				1870D0166EFDBC3B7F411628 /* Frameworks */,
@@ -96,36 +168,10 @@
 		AEF175FC1E0EB592003D041A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AEF175FB1E0EB592003D041A /* KZ_DatabaseModel.app */,
+				AEC2904A208DC9CE00198A0E /* KZ_DatabaseModel_iOS.app */,
+				AEC2906F208DCAC500198A0E /* KZ_DatabaseModel_macOS.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		AEF175FD1E0EB592003D041A /* KZ_DatabaseModel */ = {
-			isa = PBXGroup;
-			children = (
-				AEF176011E0EB592003D041A /* AppDelegate.h */,
-				AEF176021E0EB592003D041A /* AppDelegate.m */,
-				AEF176041E0EB592003D041A /* ViewController.h */,
-				AEF176051E0EB592003D041A /* ViewController.m */,
-				AEF176351E0EB653003D041A /* User.h */,
-				AEF176361E0EB653003D041A /* User.m */,
-				AEA5EBE61FC2A9DC003D7BD1 /* DatabaseModel */,
-				AEF176071E0EB592003D041A /* Main.storyboard */,
-				AEF1760A1E0EB592003D041A /* Assets.xcassets */,
-				AEF1760C1E0EB592003D041A /* LaunchScreen.storyboard */,
-				AEF1760F1E0EB592003D041A /* Info.plist */,
-				AEF175FE1E0EB592003D041A /* Supporting Files */,
-			);
-			path = KZ_DatabaseModel;
-			sourceTree = "<group>";
-		};
-		AEF175FE1E0EB592003D041A /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				AEF175FF1E0EB592003D041A /* main.m */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		F0B17A2AD67C49A7379F2F55 /* Pods */ = {
@@ -135,6 +181,10 @@
 				D6CE15BFAA5B09547F6D7CD2 /* Pods-KZ_DatabaseModel.release.xcconfig */,
 				C9D752DE5DC620831DCBB2FB /* Pods-KZ_DatabaseModelFramework.debug.xcconfig */,
 				BB2BE3982170674B0BE26C82 /* Pods-KZ_DatabaseModelFramework.release.xcconfig */,
+				508C384AE0AFD9F8D464AB16 /* Pods-KZ_DatabaseModel_iOS.debug.xcconfig */,
+				56558DA0314C4AEAEEC54CCA /* Pods-KZ_DatabaseModel_iOS.release.xcconfig */,
+				314D22912E23D1CA421C3181 /* Pods-KZ_DatabaseModel_macOS.debug.xcconfig */,
+				D0D931BF07A399B79CA12D9E /* Pods-KZ_DatabaseModel_macOS.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -142,25 +192,40 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AEF175FA1E0EB592003D041A /* KZ_DatabaseModel */ = {
+		AEC29049208DC9CE00198A0E /* KZ_DatabaseModel_iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AEF176281E0EB592003D041A /* Build configuration list for PBXNativeTarget "KZ_DatabaseModel" */;
+			buildConfigurationList = AEC2905D208DC9CE00198A0E /* Build configuration list for PBXNativeTarget "KZ_DatabaseModel_iOS" */;
 			buildPhases = (
-				44A074E2ED381D8AB8F63148 /* [CP] Check Pods Manifest.lock */,
-				AEF175F71E0EB592003D041A /* Sources */,
-				AEF175F81E0EB592003D041A /* Frameworks */,
-				AEF175F91E0EB592003D041A /* Resources */,
-				BA5A1254C8470B04833D28D5 /* [CP] Embed Pods Frameworks */,
-				87C8EB373EAF47771526208B /* [CP] Copy Pods Resources */,
-				AEDC10D01FC1E2C600752728 /* Embed Frameworks */,
+				188C2E6E673DF3F4A36915DB /* [CP] Check Pods Manifest.lock */,
+				AEC29046208DC9CE00198A0E /* Sources */,
+				AEC29047208DC9CE00198A0E /* Frameworks */,
+				AEC29048208DC9CE00198A0E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = KZ_DatabaseModel;
-			productName = KZ_DatabaseModel;
-			productReference = AEF175FB1E0EB592003D041A /* KZ_DatabaseModel.app */;
+			name = KZ_DatabaseModel_iOS;
+			productName = KZ_DatabaseModel_iOS;
+			productReference = AEC2904A208DC9CE00198A0E /* KZ_DatabaseModel_iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AEC2906E208DCAC500198A0E /* KZ_DatabaseModel_macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEC29080208DCAC600198A0E /* Build configuration list for PBXNativeTarget "KZ_DatabaseModel_macOS" */;
+			buildPhases = (
+				6CC8A46C8246AAD8A549881A /* [CP] Check Pods Manifest.lock */,
+				AEC2906B208DCAC500198A0E /* Sources */,
+				AEC2906C208DCAC500198A0E /* Frameworks */,
+				AEC2906D208DCAC500198A0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KZ_DatabaseModel_macOS;
+			productName = KZ_DatabaseModel_macOS;
+			productReference = AEC2906F208DCAC500198A0E /* KZ_DatabaseModel_macOS.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -169,11 +234,16 @@
 		AEF175F31E0EB592003D041A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0900;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Kieron Zhang";
 				TargetAttributes = {
-					AEF175FA1E0EB592003D041A = {
-						CreatedOnToolsVersion = 8.2;
+					AEC29049208DC9CE00198A0E = {
+						CreatedOnToolsVersion = 9.3;
+						DevelopmentTeam = TGTFTDLM8G;
+						ProvisioningStyle = Automatic;
+					};
+					AEC2906E208DCAC500198A0E = {
+						CreatedOnToolsVersion = 9.3;
 						DevelopmentTeam = TGTFTDLM8G;
 						ProvisioningStyle = Automatic;
 					};
@@ -192,26 +262,36 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AEF175FA1E0EB592003D041A /* KZ_DatabaseModel */,
+				AEC29049208DC9CE00198A0E /* KZ_DatabaseModel_iOS */,
+				AEC2906E208DCAC500198A0E /* KZ_DatabaseModel_macOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		AEF175F91E0EB592003D041A /* Resources */ = {
+		AEC29048208DC9CE00198A0E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEF1760E1E0EB592003D041A /* LaunchScreen.storyboard in Resources */,
-				AEF1760B1E0EB592003D041A /* Assets.xcassets in Resources */,
-				AEF176091E0EB592003D041A /* Main.storyboard in Resources */,
+				AEC29059208DC9CE00198A0E /* LaunchScreen.storyboard in Resources */,
+				AEC29056208DC9CE00198A0E /* Assets.xcassets in Resources */,
+				AEC29054208DC9CE00198A0E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEC2906D208DCAC500198A0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEC29078208DCAC500198A0E /* Assets.xcassets in Resources */,
+				AEC2907B208DCAC500198A0E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		44A074E2ED381D8AB8F63148 /* [CP] Check Pods Manifest.lock */ = {
+		188C2E6E673DF3F4A36915DB /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -222,86 +302,204 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-KZ_DatabaseModel-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-KZ_DatabaseModel_iOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		87C8EB373EAF47771526208B /* [CP] Copy Pods Resources */ = {
+		6CC8A46C8246AAD8A549881A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
-			name = "[CP] Copy Pods Resources";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KZ_DatabaseModel_macOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KZ_DatabaseModel/Pods-KZ_DatabaseModel-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		BA5A1254C8470B04833D28D5 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-KZ_DatabaseModel/Pods-KZ_DatabaseModel-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/KZ_Database/KZ_Database.framework",
-				"${BUILT_PRODUCTS_DIR}/KZ_JSON/KZ_JSON.framework",
-				"${BUILT_PRODUCTS_DIR}/KZ_Model/KZ_Model.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KZ_Database.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KZ_JSON.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KZ_Model.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KZ_DatabaseModel/Pods-KZ_DatabaseModel-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		AEF175F71E0EB592003D041A /* Sources */ = {
+		AEC29046208DC9CE00198A0E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEF176371E0EB653003D041A /* User.m in Sources */,
-				AEF176061E0EB592003D041A /* ViewController.m in Sources */,
-				AEF176031E0EB592003D041A /* AppDelegate.m in Sources */,
-				AEF176001E0EB592003D041A /* main.m in Sources */,
+				AEC29051208DC9CE00198A0E /* ViewController.m in Sources */,
+				AEC2905C208DC9CE00198A0E /* main.m in Sources */,
+				AEC29062208DCA1100198A0E /* iOS_User.m in Sources */,
+				AEC2904E208DC9CE00198A0E /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEC2906B208DCAC500198A0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEC29088208DCAFF00198A0E /* macOS_User.m in Sources */,
+				AEC29076208DCAC500198A0E /* ViewController.m in Sources */,
+				AEC2907E208DCAC500198A0E /* main.m in Sources */,
+				AEC29073208DCAC500198A0E /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		AEF176071E0EB592003D041A /* Main.storyboard */ = {
+		AEC29052208DC9CE00198A0E /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				AEF176081E0EB592003D041A /* Base */,
+				AEC29053208DC9CE00198A0E /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		AEF1760C1E0EB592003D041A /* LaunchScreen.storyboard */ = {
+		AEC29057208DC9CE00198A0E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				AEF1760D1E0EB592003D041A /* Base */,
+				AEC29058208DC9CE00198A0E /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		AEC29079208DCAC500198A0E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEC2907A208DCAC500198A0E /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		AEC2905E208DC9CE00198A0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 508C384AE0AFD9F8D464AB16 /* Pods-KZ_DatabaseModel_iOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TGTFTDLM8G;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/KZ_DatabaseModel_iOS/DatabaseModel",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = KZ_DatabaseModel_iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kieronzhang.KZ-DatabaseModel-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		AEC2905F208DC9CE00198A0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56558DA0314C4AEAEEC54CCA /* Pods-KZ_DatabaseModel_iOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TGTFTDLM8G;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/KZ_DatabaseModel_iOS/DatabaseModel",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = KZ_DatabaseModel_iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kieronzhang.KZ-DatabaseModel-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		AEC29081208DCAC600198A0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 314D22912E23D1CA421C3181 /* Pods-KZ_DatabaseModel_macOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = KZ_DatabaseModel_macOS/KZ_DatabaseModel_macOS.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = TGTFTDLM8G;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/KZ_DatabaseModel_macOS/DatabaseModel",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = KZ_DatabaseModel_macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kieronzhang.KZ-DatabaseModel-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AEC29082208DCAC600198A0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0D931BF07A399B79CA12D9E /* Pods-KZ_DatabaseModel_macOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = KZ_DatabaseModel_macOS/KZ_DatabaseModel_macOS.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = TGTFTDLM8G;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/KZ_DatabaseModel_macOS/DatabaseModel",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = KZ_DatabaseModel_macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kieronzhang.KZ-DatabaseModel-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
 		AEF176261E0EB592003D041A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -315,6 +513,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -322,6 +521,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -348,7 +548,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -369,6 +570,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -376,6 +578,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -396,7 +599,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -404,65 +608,32 @@
 			};
 			name = Release;
 		};
-		AEF176291E0EB592003D041A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5CC3F2EC0788EE439BB37890 /* Pods-KZ_DatabaseModel.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = TGTFTDLM8G;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/KZ_DatabaseModel/DatabaseModel",
-				);
-				INFOPLIST_FILE = KZ_DatabaseModel/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kieronzhang.DatabaseModel;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = 1;
-			};
-			name = Debug;
-		};
-		AEF1762A1E0EB592003D041A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D6CE15BFAA5B09547F6D7CD2 /* Pods-KZ_DatabaseModel.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = TGTFTDLM8G;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/KZ_DatabaseModel/DatabaseModel",
-				);
-				INFOPLIST_FILE = KZ_DatabaseModel/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kieronzhang.DatabaseModel;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = 1;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		AEC2905D208DC9CE00198A0E /* Build configuration list for PBXNativeTarget "KZ_DatabaseModel_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEC2905E208DC9CE00198A0E /* Debug */,
+				AEC2905F208DC9CE00198A0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEC29080208DCAC600198A0E /* Build configuration list for PBXNativeTarget "KZ_DatabaseModel_macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEC29081208DCAC600198A0E /* Debug */,
+				AEC29082208DCAC600198A0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		AEF175F61E0EB592003D041A /* Build configuration list for PBXProject "KZ_DatabaseModel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AEF176261E0EB592003D041A /* Debug */,
 				AEF176271E0EB592003D041A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AEF176281E0EB592003D041A /* Build configuration list for PBXNativeTarget "KZ_DatabaseModel" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AEF176291E0EB592003D041A /* Debug */,
-				AEF1762A1E0EB592003D041A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

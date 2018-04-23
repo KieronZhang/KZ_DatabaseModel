@@ -1,19 +1,25 @@
 PODS:
-  - KZ_Database (0.1):
+  - KZ_Database (0.1.1):
     - KZ_JSON
-  - KZ_JSON (0.1.1)
-  - KZ_Model (0.1):
+  - KZ_JSON (0.1.2)
+  - KZ_Model (0.1.2):
     - KZ_JSON
 
 DEPENDENCIES:
   - KZ_Database
   - KZ_Model
 
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - KZ_Database
+    - KZ_JSON
+    - KZ_Model
+
 SPEC CHECKSUMS:
-  KZ_Database: 9bc9444960a8ba7abce04958d65a5b231bcc0793
-  KZ_JSON: 29f35829b005d283411de59f4063de5bfc1ebdcb
-  KZ_Model: 477ad89c2fe335bb69c46c669f432d5ee6543a55
+  KZ_Database: db9620a2f8e96f39fe26bf2cec5a52bc0174cea9
+  KZ_JSON: 71ee38a4e9a97b46c3c302408b9329051bb49980
+  KZ_Model: 58cbb5496db9300e031cf7e6bc9127ea693d0472
 
-PODFILE CHECKSUM: 9f73a3aa5e04a1b9f39baa62455e6ac673a61348
+PODFILE CHECKSUM: f1ff1b489bc324517f84a595dc835d8ddb535d4f
 
-COCOAPODS: 1.3.1
+COCOAPODS: 1.5.0
