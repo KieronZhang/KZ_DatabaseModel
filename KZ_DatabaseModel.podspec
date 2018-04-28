@@ -10,8 +10,9 @@ Pod::Spec.new do |s|
 
     s.source = {:git => 'https://github.com/KieronZhang/KZ_DatabaseModel.git', :tag => s.version, :submodules => true}
     s.xcconfig = {'OTHER_LDFLAGS' => '-ObjC'}
-    s.frameworks = 'Foundation'
     s.requires_arc = true
+
+    s.frameworks = 'Foundation'
 
     s.ios.deployment_target = '8.0'
     s.osx.deployment_target = '10.10'
