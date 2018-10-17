@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
     s.name = 'KZ_DatabaseModel'
-    s.version = '0.1.2'
+    s.version = '0.1.3'
     s.summary = 'iOS & macOS database.'
     s.homepage = 'https://github.com/KieronZhang/KZ_DatabaseModel'
     s.license = {:type => 'MIT', :file => 'LICENSE'}

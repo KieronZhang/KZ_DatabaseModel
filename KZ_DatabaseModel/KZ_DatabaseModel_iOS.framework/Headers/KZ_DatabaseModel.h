@@ -7,9 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
-#if TARGET_OS_IPHONE
+#if TARGET_OS_IOS
 #import <KZ_Model_iOS/KZ_Model.h>
-#elif TARGET_OS_MAC
+#elif TARGET_OS_OSX
 #import <KZ_Model_macOS/KZ_Model.h>
 #endif
 

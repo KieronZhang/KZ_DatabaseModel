@@ -22,8 +22,8 @@
 		AEC2907B208DCAC500198A0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEC29079208DCAC500198A0E /* Main.storyboard */; };
 		AEC2907E208DCAC500198A0E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC2907D208DCAC500198A0E /* main.m */; };
 		AEC29088208DCAFF00198A0E /* macOS_User.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC29087208DCAFF00198A0E /* macOS_User.m */; };
-		AEF94D96217711980063EE69 /* KZ_DatabaseModel_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF94D95217711980063EE69 /* KZ_DatabaseModel_iOS.framework */; };
-		AEF94D982177119C0063EE69 /* KZ_DatabaseModel_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF94D972177119C0063EE69 /* KZ_DatabaseModel_macOS.framework */; };
+		AEF94DA2217714D70063EE69 /* KZ_DatabaseModel_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF94DA1217714D60063EE69 /* KZ_DatabaseModel_iOS.framework */; };
+		AEF94DA4217714DA0063EE69 /* KZ_DatabaseModel_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF94DA3217714DA0063EE69 /* KZ_DatabaseModel_macOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,8 +54,8 @@
 		AEC2907F208DCAC500198A0E /* KZ_DatabaseModel_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KZ_DatabaseModel_macOS.entitlements; sourceTree = "<group>"; };
 		AEC29086208DCAFF00198A0E /* macOS_User.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = macOS_User.h; sourceTree = "<group>"; };
 		AEC29087208DCAFF00198A0E /* macOS_User.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = macOS_User.m; sourceTree = "<group>"; };
-		AEF94D95217711980063EE69 /* KZ_DatabaseModel_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_DatabaseModel_iOS.framework; sourceTree = "<group>"; };
-		AEF94D972177119C0063EE69 /* KZ_DatabaseModel_macOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_DatabaseModel_macOS.framework; sourceTree = "<group>"; };
+		AEF94DA1217714D60063EE69 /* KZ_DatabaseModel_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_DatabaseModel_iOS.framework; sourceTree = "<group>"; };
+		AEF94DA3217714DA0063EE69 /* KZ_DatabaseModel_macOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_DatabaseModel_macOS.framework; sourceTree = "<group>"; };
 		BC300C2014C76D0EE006BAA3 /* Pods_KZ_DatabaseModel_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KZ_DatabaseModel_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0D931BF07A399B79CA12D9E /* Pods-KZ_DatabaseModel_macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_DatabaseModel_macOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_DatabaseModel_macOS/Pods-KZ_DatabaseModel_macOS.release.xcconfig"; sourceTree = "<group>"; };
 		FD266D296727B3DA882E2F9F /* Pods_KZ_DatabaseModel_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KZ_DatabaseModel_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -66,7 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEF94D96217711980063EE69 /* KZ_DatabaseModel_iOS.framework in Frameworks */,
+				AEF94DA2217714D70063EE69 /* KZ_DatabaseModel_iOS.framework in Frameworks */,
 				78FBED64684AF17D5F32138C /* Pods_KZ_DatabaseModel_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -75,7 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEF94D982177119C0063EE69 /* KZ_DatabaseModel_macOS.framework in Frameworks */,
+				AEF94DA4217714DA0063EE69 /* KZ_DatabaseModel_macOS.framework in Frameworks */,
 				688D4D5AFE6A9ECFFDA14966 /* Pods_KZ_DatabaseModel_macOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -105,7 +105,7 @@
 		AEC29068208DCAB300198A0E /* DatabaseModel */ = {
 			isa = PBXGroup;
 			children = (
-				AEF94D95217711980063EE69 /* KZ_DatabaseModel_iOS.framework */,
+				AEF94DA1217714D60063EE69 /* KZ_DatabaseModel_iOS.framework */,
 			);
 			path = DatabaseModel;
 			sourceTree = "<group>";
@@ -132,7 +132,7 @@
 		AEC29083208DCAF500198A0E /* DatabaseModel */ = {
 			isa = PBXGroup;
 			children = (
-				AEF94D972177119C0063EE69 /* KZ_DatabaseModel_macOS.framework */,
+				AEF94DA3217714DA0063EE69 /* KZ_DatabaseModel_macOS.framework */,
 			);
 			path = DatabaseModel;
 			sourceTree = "<group>";
