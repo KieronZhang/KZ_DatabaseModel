@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0AF4397D700FC7856B6A44BB /* Pods_KZ_DatabaseModel_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 486645E8D62ABE9143866C09 /* Pods_KZ_DatabaseModel_macOS.framework */; };
-		82876CE4EAAF4813BC968A91 /* Pods_KZ_DatabaseModel_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BBF60A709342D04008C3BC0 /* Pods_KZ_DatabaseModel_iOS.framework */; };
+		688D4D5AFE6A9ECFFDA14966 /* Pods_KZ_DatabaseModel_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC300C2014C76D0EE006BAA3 /* Pods_KZ_DatabaseModel_macOS.framework */; };
+		78FBED64684AF17D5F32138C /* Pods_KZ_DatabaseModel_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD266D296727B3DA882E2F9F /* Pods_KZ_DatabaseModel_iOS.framework */; };
 		AEC2904E208DC9CE00198A0E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC2904D208DC9CE00198A0E /* AppDelegate.m */; };
 		AEC29051208DC9CE00198A0E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC29050208DC9CE00198A0E /* ViewController.m */; };
 		AEC29054208DC9CE00198A0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEC29052208DC9CE00198A0E /* Main.storyboard */; };
@@ -22,19 +22,14 @@
 		AEC2907B208DCAC500198A0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEC29079208DCAC500198A0E /* Main.storyboard */; };
 		AEC2907E208DCAC500198A0E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC2907D208DCAC500198A0E /* main.m */; };
 		AEC29088208DCAFF00198A0E /* macOS_User.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC29087208DCAFF00198A0E /* macOS_User.m */; };
-		AEC2908A208DCE2500198A0E /* KZ_DatabaseModel_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEC29089208DCE2500198A0E /* KZ_DatabaseModel_iOS.framework */; };
-		AEC2908C208DCE2B00198A0E /* KZ_DatabaseModel_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEC2908B208DCE2B00198A0E /* KZ_DatabaseModel_macOS.framework */; };
+		AEF94D96217711980063EE69 /* KZ_DatabaseModel_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF94D95217711980063EE69 /* KZ_DatabaseModel_iOS.framework */; };
+		AEF94D982177119C0063EE69 /* KZ_DatabaseModel_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF94D972177119C0063EE69 /* KZ_DatabaseModel_macOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		291F580376F2B560C3FE312A /* Pods_KZ_DatabaseModelFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KZ_DatabaseModelFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		314D22912E23D1CA421C3181 /* Pods-KZ_DatabaseModel_macOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_DatabaseModel_macOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_DatabaseModel_macOS/Pods-KZ_DatabaseModel_macOS.debug.xcconfig"; sourceTree = "<group>"; };
-		486645E8D62ABE9143866C09 /* Pods_KZ_DatabaseModel_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KZ_DatabaseModel_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		508C384AE0AFD9F8D464AB16 /* Pods-KZ_DatabaseModel_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_DatabaseModel_iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_DatabaseModel_iOS/Pods-KZ_DatabaseModel_iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		56558DA0314C4AEAEEC54CCA /* Pods-KZ_DatabaseModel_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_DatabaseModel_iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_DatabaseModel_iOS/Pods-KZ_DatabaseModel_iOS.release.xcconfig"; sourceTree = "<group>"; };
-		5CC3F2EC0788EE439BB37890 /* Pods-KZ_DatabaseModel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_DatabaseModel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_DatabaseModel/Pods-KZ_DatabaseModel.debug.xcconfig"; sourceTree = "<group>"; };
-		7BBF60A709342D04008C3BC0 /* Pods_KZ_DatabaseModel_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KZ_DatabaseModel_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A6D8DB47FC8B544D2AC28EB0 /* Pods_KZ_DatabaseModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KZ_DatabaseModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEC2904A208DC9CE00198A0E /* KZ_DatabaseModel_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KZ_DatabaseModel_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEC2904C208DC9CE00198A0E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AEC2904D208DC9CE00198A0E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -59,12 +54,11 @@
 		AEC2907F208DCAC500198A0E /* KZ_DatabaseModel_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KZ_DatabaseModel_macOS.entitlements; sourceTree = "<group>"; };
 		AEC29086208DCAFF00198A0E /* macOS_User.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = macOS_User.h; sourceTree = "<group>"; };
 		AEC29087208DCAFF00198A0E /* macOS_User.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = macOS_User.m; sourceTree = "<group>"; };
-		AEC29089208DCE2500198A0E /* KZ_DatabaseModel_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_DatabaseModel_iOS.framework; sourceTree = "<group>"; };
-		AEC2908B208DCE2B00198A0E /* KZ_DatabaseModel_macOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_DatabaseModel_macOS.framework; sourceTree = "<group>"; };
-		BB2BE3982170674B0BE26C82 /* Pods-KZ_DatabaseModelFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_DatabaseModelFramework.release.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_DatabaseModelFramework/Pods-KZ_DatabaseModelFramework.release.xcconfig"; sourceTree = "<group>"; };
-		C9D752DE5DC620831DCBB2FB /* Pods-KZ_DatabaseModelFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_DatabaseModelFramework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_DatabaseModelFramework/Pods-KZ_DatabaseModelFramework.debug.xcconfig"; sourceTree = "<group>"; };
+		AEF94D95217711980063EE69 /* KZ_DatabaseModel_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_DatabaseModel_iOS.framework; sourceTree = "<group>"; };
+		AEF94D972177119C0063EE69 /* KZ_DatabaseModel_macOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_DatabaseModel_macOS.framework; sourceTree = "<group>"; };
+		BC300C2014C76D0EE006BAA3 /* Pods_KZ_DatabaseModel_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KZ_DatabaseModel_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0D931BF07A399B79CA12D9E /* Pods-KZ_DatabaseModel_macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_DatabaseModel_macOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_DatabaseModel_macOS/Pods-KZ_DatabaseModel_macOS.release.xcconfig"; sourceTree = "<group>"; };
-		D6CE15BFAA5B09547F6D7CD2 /* Pods-KZ_DatabaseModel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_DatabaseModel.release.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_DatabaseModel/Pods-KZ_DatabaseModel.release.xcconfig"; sourceTree = "<group>"; };
+		FD266D296727B3DA882E2F9F /* Pods_KZ_DatabaseModel_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KZ_DatabaseModel_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,8 +66,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEC2908A208DCE2500198A0E /* KZ_DatabaseModel_iOS.framework in Frameworks */,
-				82876CE4EAAF4813BC968A91 /* Pods_KZ_DatabaseModel_iOS.framework in Frameworks */,
+				AEF94D96217711980063EE69 /* KZ_DatabaseModel_iOS.framework in Frameworks */,
+				78FBED64684AF17D5F32138C /* Pods_KZ_DatabaseModel_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,25 +75,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEC2908C208DCE2B00198A0E /* KZ_DatabaseModel_macOS.framework in Frameworks */,
-				0AF4397D700FC7856B6A44BB /* Pods_KZ_DatabaseModel_macOS.framework in Frameworks */,
+				AEF94D982177119C0063EE69 /* KZ_DatabaseModel_macOS.framework in Frameworks */,
+				688D4D5AFE6A9ECFFDA14966 /* Pods_KZ_DatabaseModel_macOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1870D0166EFDBC3B7F411628 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				A6D8DB47FC8B544D2AC28EB0 /* Pods_KZ_DatabaseModel.framework */,
-				291F580376F2B560C3FE312A /* Pods_KZ_DatabaseModelFramework.framework */,
-				7BBF60A709342D04008C3BC0 /* Pods_KZ_DatabaseModel_iOS.framework */,
-				486645E8D62ABE9143866C09 /* Pods_KZ_DatabaseModel_macOS.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		AEC2904B208DC9CE00198A0E /* KZ_DatabaseModel_iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -122,7 +105,7 @@
 		AEC29068208DCAB300198A0E /* DatabaseModel */ = {
 			isa = PBXGroup;
 			children = (
-				AEC29089208DCE2500198A0E /* KZ_DatabaseModel_iOS.framework */,
+				AEF94D95217711980063EE69 /* KZ_DatabaseModel_iOS.framework */,
 			);
 			path = DatabaseModel;
 			sourceTree = "<group>";
@@ -149,7 +132,7 @@
 		AEC29083208DCAF500198A0E /* DatabaseModel */ = {
 			isa = PBXGroup;
 			children = (
-				AEC2908B208DCE2B00198A0E /* KZ_DatabaseModel_macOS.framework */,
+				AEF94D972177119C0063EE69 /* KZ_DatabaseModel_macOS.framework */,
 			);
 			path = DatabaseModel;
 			sourceTree = "<group>";
@@ -161,7 +144,7 @@
 				AEC29070208DCAC500198A0E /* KZ_DatabaseModel_macOS */,
 				AEF175FC1E0EB592003D041A /* Products */,
 				F0B17A2AD67C49A7379F2F55 /* Pods */,
-				1870D0166EFDBC3B7F411628 /* Frameworks */,
+				D77E6C3E450EE78C6C878816 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -174,13 +157,18 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		D77E6C3E450EE78C6C878816 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD266D296727B3DA882E2F9F /* Pods_KZ_DatabaseModel_iOS.framework */,
+				BC300C2014C76D0EE006BAA3 /* Pods_KZ_DatabaseModel_macOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F0B17A2AD67C49A7379F2F55 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5CC3F2EC0788EE439BB37890 /* Pods-KZ_DatabaseModel.debug.xcconfig */,
-				D6CE15BFAA5B09547F6D7CD2 /* Pods-KZ_DatabaseModel.release.xcconfig */,
-				C9D752DE5DC620831DCBB2FB /* Pods-KZ_DatabaseModelFramework.debug.xcconfig */,
-				BB2BE3982170674B0BE26C82 /* Pods-KZ_DatabaseModelFramework.release.xcconfig */,
 				508C384AE0AFD9F8D464AB16 /* Pods-KZ_DatabaseModel_iOS.debug.xcconfig */,
 				56558DA0314C4AEAEEC54CCA /* Pods-KZ_DatabaseModel_iOS.release.xcconfig */,
 				314D22912E23D1CA421C3181 /* Pods-KZ_DatabaseModel_macOS.debug.xcconfig */,
@@ -405,7 +393,7 @@
 				INFOPLIST_FILE = KZ_DatabaseModel_iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kieronzhang.KZ-DatabaseModel-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kieronzhang.DatabaseModel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -434,7 +422,7 @@
 				INFOPLIST_FILE = KZ_DatabaseModel_iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kieronzhang.KZ-DatabaseModel-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kieronzhang.DatabaseModel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -464,7 +452,7 @@
 				INFOPLIST_FILE = KZ_DatabaseModel_macOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kieronzhang.KZ-DatabaseModel-macOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kieronzhang.DatabaseModel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 			};
@@ -494,7 +482,7 @@
 				INFOPLIST_FILE = KZ_DatabaseModel_macOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kieronzhang.KZ-DatabaseModel-macOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kieronzhang.DatabaseModel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 			};
