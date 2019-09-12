@@ -50,15 +50,13 @@
     [tableView deselectRow:row];
     switch (row) {
         case 0: {
-            [macOS_User createDatabaseWithTableName:nil primaryKey:nil success:^(BOOL finished, int resultCode) {
-                NSLog(@"0-1 %@", finished ? @"创建数据库成功" : [NSString stringWithFormat:@"创建数据库失败 %d", (int)resultCode]);
-            }];
+            BOOL finished = [macOS_User createDatabaseWithTableName:nil primaryKey:nil];
+            NSLog(@"0-1 %@", finished ? @"创建数据库成功" : @"创建数据库失败");
         }
             break;
         case 1: {
-            [macOS_User deleteWholeDatabaseWithTableName:nil success:^(BOOL finished, int resultCode) {
-                NSLog(@"1-1 %@", finished ? @"删除数据库成功" : [NSString stringWithFormat:@"删除数据库失败 %d", (int)resultCode]);
-            }];
+            BOOL finished = [macOS_User deleteWholeDatabaseWithTableName:nil];
+            NSLog(@"1-1 %@", finished ? @"删除数据库成功" : @"删除数据库失败");
         }
             break;
         case 2: {
@@ -67,9 +65,8 @@
             user.username = @"Kieron";
             user.age = @"15";
             user.sex = @"Male";
-            [user insertToDatabaseWithTableName:nil success:^(BOOL finished, int resultCode) {
-                NSLog(@"2-1 %@", finished ? @"插入数据库成功" : [NSString stringWithFormat:@"插入数据库失败 %d", (int)resultCode]);
-            }];
+            BOOL finished = [user insertToDatabaseWithTableName:nil];
+            NSLog(@"2-1 %@", finished ? @"插入数据库成功" : @"插入数据库失败");
         }
             break;
         case 3: {
@@ -82,9 +79,8 @@
                 user.sex = @"Male";
                 [array addObject:user];
             }
-            [macOS_User insertToDatabaseWithTableName:nil models:array success:^(BOOL finished, int resultCode) {
-                NSLog(@"3-1 %@", finished ? @"插入数据库成功" : [NSString stringWithFormat:@"插入数据库失败 %d", (int)resultCode]);
-            }];
+            BOOL finished = [macOS_User insertToDatabaseWithTableName:nil models:array];
+            NSLog(@"3-1 %@", finished ? @"插入数据库成功" : @"插入数据库失败");
         }
             break;
         case 4: {
@@ -93,9 +89,8 @@
             user.username = @"Kieron";
             user.age = @"15";
             user.sex = @"Male";
-            [user replaceToDatabaseWithTableName:nil success:^(BOOL finished, int resultCode) {
-                NSLog(@"4-1 %@", finished ? @"替换数据库成功" : [NSString stringWithFormat:@"替换数据库失败 %d", (int)resultCode]);
-            }];
+            BOOL finished = [user replaceToDatabaseWithTableName:nil];
+            NSLog(@"4-1 %@", finished ? @"替换数据库成功" : @"替换数据库失败");
         }
             break;
         case 5: {
@@ -108,23 +103,20 @@
                 user.sex = @"Male";
                 [array addObject:user];
             }
-            [macOS_User replaceToDatabaseWithTableName:nil models:array success:^(BOOL finished, int resultCode) {
-                NSLog(@"5-1 %@", finished ? @"替换数据库成功" : [NSString stringWithFormat:@"替换数据库失败 %d", (int)resultCode]);
-            }];
+            BOOL finished = [macOS_User replaceToDatabaseWithTableName:nil models:array];
+            NSLog(@"5-1 %@", finished ? @"替换数据库成功" : @"替换数据库失败");
         }
             break;
         case 6: {
-            [macOS_User selectModelInDatabaseWithSuccess:^(NSArray *resultArray, int resultCode) {
-                for (macOS_User *user in resultArray) {
-                    NSLog(@"6-1 %@", [KZ_Model transModelToJSONObject:user]);
-                }
-            }];
+            NSArray *resultArray = [macOS_User selectModelInDatabase];
+            for (macOS_User *user in resultArray) {
+                NSLog(@"6-1 %@", [KZ_Model transModelToJSONObject:user]);
+            }
         }
             break;
         case 7: {
-            [macOS_User selectModelCountInDataBaseWithSuccess:^(int count, int resultCode) {
-                NSLog(@"7-1 %d", count);
-            }];
+            int count = [macOS_User selectModelCountInDataBase];
+            NSLog(@"7-1 %d", count);
         }
             break;
         case 8: {
@@ -133,12 +125,10 @@
             user.username = @"Kieron2";
             user.age = @"15";
             user.sex = @"Male";
-            [user updateToDatabaseWithTableName:nil sets:@[@"username"] where:nil success:^(BOOL finished, int resultCode) {
-                NSLog(@"8-1 %@", finished ? @"更新数据库成功" : [NSString stringWithFormat:@"更新数据库失败 %d", (int)resultCode]);
-            }];
-            [macOS_User updateToDatabaseWithTableName:nil set:@"username = 'KieronZhang'" where:@"user_id = '10'" success:^(BOOL finished, int resultCode) {
-                NSLog(@"8-2 %@", finished ? @"更新数据库成功" : [NSString stringWithFormat:@"更新数据库失败 %d", (int)resultCode]);
-            }];
+            BOOL finished = [user updateToDatabaseWithTableName:nil sets:@[@"username"] where:nil];
+            NSLog(@"8-1 %@", finished ? @"更新数据库成功" : @"更新数据库失败");
+            finished = [macOS_User updateToDatabaseWithTableName:nil set:@"username = 'KieronZhang'" where:@"user_id = '10'"];
+            NSLog(@"8-2 %@", finished ? @"更新数据库成功" : @"更新数据库失败");
         }
             break;
         case 9: {
@@ -147,9 +137,8 @@
             user.username = @"Kieron";
             user.age = @"15";
             user.sex = @"Male";
-            [user deleteFromDatabaseWithTableName:nil success:^(BOOL finished, int resultCode) {
-                NSLog(@"9-1 %@", finished ? @"删除数据库成功" : [NSString stringWithFormat:@"删除数据库失败 %d", (int)resultCode]);
-            }];
+            BOOL finished = [user deleteFromDatabaseWithTableName:nil];
+            NSLog(@"9-1 %@", finished ? @"删除数据库成功" : @"删除数据库失败");
         }
             break;
         default:
