@@ -178,8 +178,8 @@ typedef NS_ENUM(NSInteger, KZ_DatabaseNodeType) {
 - (KZ_DatabaseNode *)isSub;
 - (KZ_DatabaseNode *)isNotSub;
 
-- (void)execute:(void (^)(id result, int resultCode))execute;
-- (void)executeWithValues:(NSArray *)values execute:(void (^)(id result, int resultCode))execute;
+- (id)execute;
+- (id)executeWithValues:(NSArray *)values;
 - (NSString *)getStringValueWithObject:(id)object;
 
 @end
